@@ -1,0 +1,351 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19044.1645; Version 2009; 64bit' Language: 'es' Physical Memory: 16257 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/boris/OneDrive/Documentos/GitHub/2DGame/Selda
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57479
+Successfully changed project path to: C:/Users/boris/OneDrive/Documentos/GitHub/2DGame/Selda
+C:/Users/boris/OneDrive/Documentos/GitHub/2DGame/Selda
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/boris/OneDrive/Documentos/GitHub/2DGame/Selda/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002515 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1725ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (405ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (160ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.4 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2615.
+Total: 3.473300 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.062500 ms MarkObjects: 3.153300 ms  DeleteObjects: 0.071400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Paletas/Suelo.prefab
+  artifactKey: Guid(30bf05e974589cf4b82ddaf8effc9a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paletas/Suelo.prefab using Guid(30bf05e974589cf4b82ddaf8effc9a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2e4dd7aecd1affadf6fd7a328dc5f5') in 0.101555 seconds 
+  Import took 0.104565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.197095 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_ForgottenPlainsProps.png
+  artifactKey: Guid(be785b53e8101134cb49e391918a7a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_ForgottenPlainsProps.png using Guid(be785b53e8101134cb49e391918a7a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306f690d2c674bc4faedffb83a554d3d') in 0.164173 seconds 
+  Import took 0.167547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_ForgottenPlainsPropsShadows.png
+  artifactKey: Guid(da4d732596845594e9b99bf9488ee15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_ForgottenPlainsPropsShadows.png using Guid(da4d732596845594e9b99bf9488ee15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cc15a4303c8c98235f2f748818f2f0') in 0.089458 seconds 
+  Import took 0.092520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.412317 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_ForgottenPlainsTiles.png
+  artifactKey: Guid(49ebf7de40457d84495983a6734b2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_ForgottenPlainsTiles.png using Guid(49ebf7de40457d84495983a6734b2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bed5bfe191be42a8f9db094ab54024b') in 0.781781 seconds 
+  Import took 0.787139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_ForgottenPlainsTilesExtras.png
+  artifactKey: Guid(162473a0430db7841a72bcd3c2c1ca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_ForgottenPlainsTilesExtras.png using Guid(162473a0430db7841a72bcd3c2c1ca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f646c1c684452058ff16d4c57339755') in 0.034007 seconds 
+  Import took 0.037068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_ForgottenPlainsTilesShadows.png
+  artifactKey: Guid(1389a4518cee0534ea58db4eb226c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_ForgottenPlainsTilesShadows.png using Guid(1389a4518cee0534ea58db4eb226c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b3d81e888a5f00d6d1f992260a7e84') in 0.071439 seconds 
+  Import took 0.076344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.502970 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_ForgottenPlainsTiles.png
+  artifactKey: Guid(49ebf7de40457d84495983a6734b2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_ForgottenPlainsTiles.png using Guid(49ebf7de40457d84495983a6734b2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1438760dc2cc636bd0f23be1f684e1') in 1.174307 seconds 
+  Import took 1.180183 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2721.
+Total: 3.801100 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.077700 ms MarkObjects: 3.472700 ms  DeleteObjects: 0.022000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 502.238614 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseAnimations.png
+  artifactKey: Guid(a086c0da989a0d14db2fb9a77ccc086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseAnimations.png using Guid(a086c0da989a0d14db2fb9a77ccc086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bec37a975cd57d7d84e6c37600c1ba') in 0.059651 seconds 
+  Import took 0.064760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseDmg.png
+  artifactKey: Guid(3fbee39e2384c5f4d9703cb027fb61b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseDmg.png using Guid(3fbee39e2384c5f4d9703cb027fb61b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d4bcfa1191b995122d90103822d1c8') in 0.074080 seconds 
+  Import took 0.078513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseChargedAttack.png
+  artifactKey: Guid(0b5262a6696fdd4479d0e186f7021230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseChargedAttack.png using Guid(0b5262a6696fdd4479d0e186f7021230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee85c9dc0b77d6019e1fc6fea3446de0') in 0.066462 seconds 
+  Import took 0.069520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseJump.png
+  artifactKey: Guid(e39add3b6c2c5014bbebfd30a0940bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseJump.png using Guid(e39add3b6c2c5014bbebfd30a0940bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cbeed862986ff42820fa75e6a1ed4a') in 0.074547 seconds 
+  Import took 0.077499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseSoulDie.png
+  artifactKey: Guid(e9041a013a35844458b3496ec9fbb135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseSoulDie.png using Guid(e9041a013a35844458b3496ec9fbb135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3f9d8d7e1e7e3e4ca5d0d1fd3dd964') in 0.065395 seconds 
+  Import took 0.068282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseWalk.png
+  artifactKey: Guid(f812282260a85de4196fa640ee2227fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseWalk.png using Guid(f812282260a85de4196fa640ee2227fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b646560a8be00cb94861ea6aca1c8ed0') in 0.079130 seconds 
+  Import took 0.082148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseIdle.png
+  artifactKey: Guid(d90d7a221c51b3d47a20a1c27617d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseIdle.png using Guid(d90d7a221c51b3d47a20a1c27617d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2366285e9d8006537de339d329b0bbc2') in 0.181728 seconds 
+  Import took 0.184905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseAttack.png
+  artifactKey: Guid(1c9b84d978891c24288defb67855d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseAttack.png using Guid(1c9b84d978891c24288defb67855d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a69ec07d88934cdac3db39fbdf263cb') in 0.071526 seconds 
+  Import took 0.074516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseSpinDie.png
+  artifactKey: Guid(2d3d46406c325684aa3a1f6358ae67fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseSpinDie.png using Guid(2d3d46406c325684aa3a1f6358ae67fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974211e8e30ded6cf05f98df5c019b16') in 0.061632 seconds 
+  Import took 0.064605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.706578 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/_Shadows/Minifantasy_DungeonPropsShadows.png
+  artifactKey: Guid(bedf2249d571fad4bb00e65a7679e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/_Shadows/Minifantasy_DungeonPropsShadows.png using Guid(bedf2249d571fad4bb00e65a7679e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a5afebceec9d33c992ec79f1d2f64c') in 0.075007 seconds 
+  Import took 0.078802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_DungeonProps.png
+  artifactKey: Guid(f7b37b91088c7d44b98c5e710477bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_DungeonProps.png using Guid(f7b37b91088c7d44b98c5e710477bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e3d34a36f26de3d2de29c42a06aeaf') in 0.099681 seconds 
+  Import took 0.102667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.930214 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props
+  artifactKey: Guid(17c9a79a9fc2b35429f793feabd23f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props using Guid(17c9a79a9fc2b35429f793feabd23f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29881936366e8ae3fe6c0ce527256da4') in 0.006353 seconds 
+  Import took 0.011144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.620500 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_ForgottenPlainsProps.png
+  artifactKey: Guid(be785b53e8101134cb49e391918a7a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_ForgottenPlainsProps.png using Guid(be785b53e8101134cb49e391918a7a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e74c250455c2677bfad850766f4282') in 0.368307 seconds 
+  Import took 0.372915 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
