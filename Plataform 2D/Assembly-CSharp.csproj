@@ -54,12 +54,14 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player\CheckGround.cs" />
      <Compile Include="Assets\Scripts\fruits\FruitCollected.cs" />
+     <Compile Include="Assets\Scripts\Canva\Play.cs" />
      <Compile Include="Assets\Scripts\Enemies\DamageObject.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\ImputConreoller\InputController.cs" />
      <Compile Include="Assets\Scripts\Enemies\BallSpike.cs" />
      <Compile Include="Assets\Scripts\fruits\FruitsManagment.cs" />
-     <Compile Include="Assets\Scripts\Canva\Play.cs" />
+     <Compile Include="Assets\Scripts\Checkpoint\CheckPoint.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerRespawn.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

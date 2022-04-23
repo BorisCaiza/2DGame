@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Canva/Play.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/fruits/FruitsManagment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImputConreoller/InputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerRespawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="284Ut6b2AH6pjxw0qcFkFDV83Bm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,6 +64,7 @@
       <updated>1650475567184</updated>
       <workItem from="1650475572875" duration="7897000" />
       <workItem from="1650579620006" duration="7693000" />
+      <workItem from="1650674429181" duration="1294000" />
     </task>
     <servers />
   </component>
