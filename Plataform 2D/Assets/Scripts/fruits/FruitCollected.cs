@@ -6,10 +6,13 @@ using UnityEngine;
 
 public class FruitCollected : MonoBehaviour
 {
+
+    public AudioSource pickup;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            pickup.Play();
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
             Destroy(gameObject.transform.GetChild(0).gameObject, 0.2f);

@@ -10,6 +10,8 @@ public class FruitsManagment : MonoBehaviour
 
     public Text levelCleared;
 
+    public GameObject trasnition;
+
     private void Update()
     {
         AllFruitsCollected();
@@ -21,6 +23,7 @@ public class FruitsManagment : MonoBehaviour
         {
             Debug.Log("No te quedan Frutas");
             levelCleared.gameObject.SetActive(true);
+            trasnition.SetActive(true);
             Invoke("ChanceScene",1);
         }
 

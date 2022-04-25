@@ -10,9 +10,8 @@ public class DamageObject : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player Damaged");
-            Destroy(other.gameObject);
-            SceneManager.LoadScene("Lose");
+            other.transform.GetComponent<PlayerRespawn>().PlayerDamaged();
+           // SceneManager.LoadScene("Lose");
         }
     }
 }
