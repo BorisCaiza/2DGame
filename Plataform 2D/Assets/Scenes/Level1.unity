@@ -2118,6 +2118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 2
   jumSpeed: 5
+  doubleJumpSpeed: 2.5
   spriteRenderer: {fileID: 781432694}
   animator: {fileID: 781432693}
   saltar: {fileID: 395009601}
@@ -3026,7 +3027,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5a22e0cbca1d3d64888dbf095e015e58, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5956,6 +5957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 2
   jumSpeed: 3
+  doubleJumpSpeed: 2.5
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
   saltar: {fileID: 0}

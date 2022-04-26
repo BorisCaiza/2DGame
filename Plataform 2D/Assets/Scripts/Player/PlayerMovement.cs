@@ -8,6 +8,10 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 2;
     public float jumSpeed = 3;
 
+    public float doubleJumpSpeed = 2.5f;
+
+    private bool canDoubleJump;
+
     private Rigidbody2D rb2d;
 
     public SpriteRenderer spriteRenderer;
@@ -59,6 +63,66 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
+    private void Update()
+    {
+        if (Input.GetKey("space"))
+        {
+            if (CheckGround.isGrounded)
+            {
+                canDoubleJump = true;
+                rb2d.velocity = new Vector2(rb2d.velocity.x, jumSpeed);
+                saltar.Play();
+                animator.SetBool("Run", false);    
+            }
+            else
+            {
+                if (Input.GetKeyDown("space"))
+                {
+                    if (canDoubleJump)
+                    {
+                        animator.SetBool("DoubleJump", true);
+                        rb2d.velocity = new Vector2(rb2d.velocity.x, doubleJumpSpeed);
+                        canDoubleJump = false;
+                    }
+                }
+            }
+
+
+        }
+        
+        if (jump && CheckGround.isGrounded)
+        {
+            rb2d.velocity = new Vector2(rb2d.velocity.x, jumSpeed);
+            saltar.Play();
+            animator.SetBool("Run", false);
+        }
+
+
+        if (CheckGround.isGrounded == false)
+        {
+            animator.SetBool("Jump",true);
+            animator.SetBool("Run", false);
+        }
+        
+        if (CheckGround.isGrounded == true)
+        {
+            animator.SetBool("Jump",false);
+            animator.SetBool("DoubleJump",false);
+            animator.SetBool("Falling",false);
+            
+        }
+
+        if (rb2d.velocity.y < 0 )
+        {
+            animator.SetBool("Falling", true);
+        }
+        else if(rb2d.velocity.y > 0)
+        {
+            animator.SetBool("Falling", false);
+        }
+    }
+
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -82,31 +146,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Run", false);
         }
 
-        if (Input.GetKey("space") && CheckGround.isGrounded)
-        {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, jumSpeed);
-            saltar.Play();
-            animator.SetBool("Run", false);
-        }
         
-        if (jump && CheckGround.isGrounded)
-        {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, jumSpeed);
-            saltar.Play();
-            animator.SetBool("Run", false);
-        }
-
-
-        if (!CheckGround.isGrounded)
-        {
-            animator.SetBool("Jump",true);
-            animator.SetBool("Run", false);
-        }
-        
-        if (CheckGround.isGrounded)
-        {
-            animator.SetBool("Jump",false);
-            
-        }
     }
 }

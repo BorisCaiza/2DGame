@@ -14,4 +14,14 @@ public class DamageObject : MonoBehaviour
            // SceneManager.LoadScene("Lose");
         }
     }
+
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.transform.GetComponent<PlayerRespawn>().PlayerDamaged();
+            // SceneManager.LoadScene("Lose");
+        }
+    }
 }
