@@ -52,11 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\StaggerAnimation.cs" />
+     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\SetAnimatorParameter.cs" />
      <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\AnimatedCharacterSelection.cs" />
      <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\AnimatedObjectsGroup.cs" />
+     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\StaggerAnimation.cs" />
      <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\CameraController.cs" />
-     <Compile Include="Assets\KrishnaPalacio\MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio\Scripts\SetAnimatorParameter.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
      <None Include="Assets\KrishnaPalacio\MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio\Documentation.txt" />
      <None Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Sprites\Tileset\River\Waterfall\WaterfalTilesInfo.txt" />
      <None Include="Assets\KrishnaPalacio\MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio\Documentation.txt" />
